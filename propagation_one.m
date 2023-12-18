@@ -20,7 +20,7 @@ Irradiance = abs(Uout).^2;
 
 % Plot the irradiance in the observation plane
 figure;
-imagesc(x1(1,:)*1000, y1(:,1)*1000, Irradiance);
+imagesc(x1(1,:), y1(:,1), Irradiance);
 colormap('hot');
 axis square;
 xlabel('x (milimeters)');
